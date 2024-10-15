@@ -22,7 +22,7 @@ for i in range(stoune_1):
     i += 1
     for j in range(stoune_1):
         j += 1
-        if stoune_1 % (i + j) == 0 and i <= j:
+        if stoune_1 % (i + j) == 0 and i < j:
            stoune_2_1.append(i)
            stoune_2_1.append(j)
 print(stoune_2_1)
