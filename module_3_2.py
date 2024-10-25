@@ -1,6 +1,6 @@
 
 
-def send_email(message, recipient, *sender):
+def send_email(message, recipient, sender):
     sender_non = (input("Адрес отправителя: "))
     if '@' in recipient and sender and sender_non:
         if '.com' or '.net' or '.ru' in recipient and sender and sender_non:
